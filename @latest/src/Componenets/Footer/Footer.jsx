@@ -1,5 +1,6 @@
 import React from "react";
 import { FiTwitter, FiGlobe, FiYoutube, FiInstagram, FiFacebook } from "react-icons/fi";
+
 import './Footer.css';
 
 const socialLinks = [
