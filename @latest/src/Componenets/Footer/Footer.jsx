@@ -1,15 +1,15 @@
 import React from "react";
-import { FiTwitter, FiGlobe, FiYoutube, FiInstagram, FiFacebook } from "react-icons/fi";
+// import { FiTwitter, FiGlobe, FiYoutube, FiInstagram, FiFacebook } from "react-icons/fi";
 
 import './Footer.css';
 
-const socialLinks = [
- { id: 1, icon: <FiGlobe />, url: "https://www.stoman.me/" },
- { id: 2, icon: <FiInstagram />, url: "https://instagram.com/" },
- { id: 3, icon: <FiTwitter />, url: "https://twitter.com/" },
- { id: 4, icon: <FiFacebook />, url: "https://Facebook.com/" },
- { id: 5, icon: <FiYoutube />, url: "https://www.youtube.com/c/" },
-];
+// const socialLinks = [
+//  { id: 1, icon: <FiGlobe />, url: "https://www.stoman.me/" },
+//  { id: 2, icon: <FiInstagram />, url: "https://instagram.com/" },
+//  { id: 3, icon: <FiTwitter />, url: "https://twitter.com/" },
+//  { id: 4, icon: <FiFacebook />, url: "https://Facebook.com/" },
+//  { id: 5, icon: <FiYoutube />, url: "https://www.youtube.com/c/" },
+// ];
 
 const paymentMethods = [
  { id: 1, name: "Visa", icon: "/images/V.png" },
@@ -64,7 +64,7 @@ const Footer = () => {
      </div>
 
      <div className="footer-content">
-       <h2>FOLLOW US</h2>
+       {/* <h2>FOLLOW US</h2>
        <ul className="social-links">
          {socialLinks.map((link) => (
            <li key={link.id}>
@@ -73,7 +73,7 @@ const Footer = () => {
              </a>
            </li>
          ))}
-       </ul>
+       </ul> */}
 
        <h2>PAYMENT METHODS</h2>
        <ul className="payment-methods">
